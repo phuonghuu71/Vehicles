@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>kb</category>
+        <client_script/>
+        <description>Overview documentation for Vehicles Application</description>
+        <direct>false</direct>
+        <endpoint>x_1281635_vehicles_Vehicles Documentation.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<html lang="en">
+		<head>
+			<meta charset="UTF-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<title>API Documentation</title>
+			<style>
+				body {
+				font-family: Arial, sans-serif;
+				margin: 0;
+				padding: 20px;
+				background-color: #f4f4f9;
+				color: #333;
+				}
+				h1 {
+				color: #2c3e50;
+				}
+				h2 {
+				color: #34495e;
+				}
+				.section {
+				margin-bottom: 20px;
+				padding: 20px;
+				background-color: transparent;
+				}
+				.endpoint {
+				background-color: #ecf0f1;
+				padding: 10px;
+				border-radius: 4px;
+				margin-bottom: 10px;
+				font-weight: bold;
+				}
+				.method {
+				font-size: 14px;
+				font-weight: bold;
+				color: #27ae60;
+				margin-right: 10px;
+				}
+				.url {
+				font-size: 14px;
+				font-family: monospace;
+				}
+				table {
+				width: 100%;
+				border-collapse: collapse;
+				margin-top: 10px;
+				}
+				table, th, td {
+				border: 1px solid #ddd;
+				padding: 8px;
+				}
+				th {
+				background-color: #2c3e50;
+				color: white;
+				}
+				td {
+				background-color: #ecf0f1;
+				}
+
+				.rainbow-text {
+				background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow,
+				orange,
+				red, violet);
+				background-size: 800% 800%;
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				animation: rainbow 8s ease infinite;
+				}
+				@keyframes rainbow {
+				0% {
+				background-position: 0% 50%;
+				}
+				50% {
+				background-position: 100% 25%;
+				}
+				100% {
+				background-position: 0% 50%;
+				}
+				}
+			</style>
+		</head>
+		<body>
+			<h1>API Documentation</h1>
+
+			<div class="section">
+				<h2>Endpoints</h2>
+
+				<div class="endpoint">
+					<span class="method">GET</span>
+					<span class="url">/api/x_1281635_vehicles/v1/vehicles/vehicle/{vin}</span>
+				</div>
+				<p>Fetches a vehicle based on the VIN (Vehicle Identification Number).</p>
+
+				<div class="endpoint">
+					<span class="method">GET</span>
+					<span class="url">/api/x_1281635_vehicles/v1/vehicles/vehicles</span>
+				</div>
+				<p>Fetches a list of vehicles based on the Name query parameter.</p>
+
+				<h3>Query Parameters:</h3>
+				<table>
+					<tr>
+						<th>Parameter</th>
+						<th>Type</th>
+						<th>Required</th>
+						<th>Description</th>
+					</tr>
+					<tr>
+						<td>Name</td>
+						<td>string</td>
+						<td>Yes</td>
+						<td>Name of the vehicle(s) to search for</td>
+					</tr>
+				</table>
+
+			</div>
+
+			<div class="section">
+				<h2>Error Codes</h2>
+				<table>
+					<tr>
+						<th>Status Code</th>
+						<th>Message</th>
+						<th>Description</th>
+					</tr>
+					<tr>
+						<td>400</td>
+						<td>Bad Request</td>
+						<td>Invalid input provided</td>
+					</tr>
+					<tr>
+						<td>401</td>
+						<td>Unauthorized</td>
+						<td>Invalid API key</td>
+					</tr>
+					<tr>
+						<td>404</td>
+						<td>Not Found</td>
+						<td>Resource not found</td>
+					</tr>
+				</table>
+			</div>
+
+		</body>
+	</html>
+
+
+</j:jelly>]]></html>
+        <name>Vehicles Documentation</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-03 10:37:48</sys_created_on>
+        <sys_id>4825c3c983c11e101672bfc6feaad3d4</sys_id>
+        <sys_mod_count>52</sys_mod_count>
+        <sys_name>Vehicles Documentation</sys_name>
+        <sys_package display_value="Vehicles" source="x_1281635_vehicles">8dd8e75983a092101672bfc6feaad3a9</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Vehicles">8dd8e75983a092101672bfc6feaad3a9</sys_scope>
+        <sys_update_name>sys_ui_page_4825c3c983c11e101672bfc6feaad3d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-03 12:34:03</sys_updated_on>
+    </sys_ui_page>
+</record_update>

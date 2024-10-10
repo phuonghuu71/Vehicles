@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b21c7b9d83e492101672bfc6feaad343" extends="sys_import_set_row" label="Vehicles Mockaroo" max_length="40" name="x_1281635_vehicles_import_vehicles" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=model_vin" label="model_vin" max_length="40" name="u_model_vin" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=description" label="description" max_length="128" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=model_year" label="model_year" max_length="40" name="u_model_year" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=model" label="model" max_length="40" name="u_model" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=name" label="name" max_length="40" name="u_name" type="string"/>
+    </element>
+</database>

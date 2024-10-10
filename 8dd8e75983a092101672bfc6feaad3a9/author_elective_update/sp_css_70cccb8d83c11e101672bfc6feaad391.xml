@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css">
+    <sp_css action="DELETE">
+        <css>.hljs {&#13;
+	display:block;&#13;
+	overflow-x:auto;&#13;
+	padding:0.5em;&#13;
+	background:#323F4C;&#13;
+}&#13;
+.hljs {&#13;
+	color:#fff;&#13;
+}&#13;
+.hljs-strong,.hljs-emphasis {&#13;
+	color:#a8a8a2&#13;
+}&#13;
+.hljs-bullet,.hljs-quote,.hljs-link,.hljs-number,.hljs-regexp,.hljs-literal {&#13;
+	color:#6896ba&#13;
+}&#13;
+.hljs-code,.hljs-selector-class {&#13;
+	color:#a6e22e&#13;
+}&#13;
+.hljs-emphasis {&#13;
+	font-style:italic&#13;
+}&#13;
+.hljs-keyword,.hljs-selector-tag,.hljs-section,.hljs-attribute,.hljs-name,.hljs-variable {&#13;
+	color:#cb7832&#13;
+}&#13;
+.hljs-params {&#13;
+	color:#b9b9b9&#13;
+}&#13;
+.hljs-string {&#13;
+	color:#6a8759&#13;
+}&#13;
+.hljs-subst,.hljs-type,.hljs-built_in,.hljs-builtin-name,.hljs-symbol,.hljs-selector-id,.hljs-selector-attr,.hljs-selector-pseudo,.hljs-template-tag,.hljs-template-variable,.hljs-addition {&#13;
+	color:#e0c46c&#13;
+}&#13;
+.hljs-comment,.hljs-deletion,.hljs-meta {&#13;
+	color:#7f7f7f&#13;
+}</css>
+        <name>hightlightjs-dark</name>
+        <sys_class_name>sp_css</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-03 11:10:31</sys_created_on>
+        <sys_id>70cccb8d83c11e101672bfc6feaad391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>hightlightjs-dark</sys_name>
+        <sys_package display_value="Vehicles" source="x_1281635_vehicles">8dd8e75983a092101672bfc6feaad3a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicles">8dd8e75983a092101672bfc6feaad3a9</sys_scope>
+        <sys_update_name>sp_css_70cccb8d83c11e101672bfc6feaad391</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-03 11:10:31</sys_updated_on>
+        <turn_off_scss_compilation>false</turn_off_scss_compilation>
+    </sp_css>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Vehicles">8dd8e75983a092101672bfc6feaad3a9</application>
+        <file_path/>
+        <instance_id>8244a0ea1bd50ed019254089bd4bcb97</instance_id>
+        <instance_name>dev254205</instance_name>
+        <name>sp_css_70cccb8d83c11e101672bfc6feaad391</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css"><sp_css action="INSERT_OR_UPDATE"><css>.hljs {&#13;
+	display:block;&#13;
+	overflow-x:auto;&#13;
+	padding:0.5em;&#13;
+	background:#323F4C;&#13;
+}&#13;
+.hljs {&#13;
+	color:#fff;&#13;
+}&#13;
+.hljs-strong,.hljs-emphasis {&#13;
+	color:#a8a8a2&#13;
+}&#13;
+.hljs-bullet,.hljs-quote,.hljs-link,.hljs-number,.hljs-regexp,.hljs-literal {&#13;
+	color:#6896ba&#13;
+}&#13;
+.hljs-code,.hljs-selector-class {&#13;
+	color:#a6e22e&#13;
+}&#13;
+.hljs-emphasis {&#13;
+	font-style:italic&#13;
+}&#13;
+.hljs-keyword,.hljs-selector-tag,.hljs-section,.hljs-attribute,.hljs-name,.hljs-variable {&#13;
+	color:#cb7832&#13;
+}&#13;
+.hljs-params {&#13;
+	color:#b9b9b9&#13;
+}&#13;
+.hljs-string {&#13;
+	color:#6a8759&#13;
+}&#13;
+.hljs-subst,.hljs-type,.hljs-built_in,.hljs-builtin-name,.hljs-symbol,.hljs-selector-id,.hljs-selector-attr,.hljs-selector-pseudo,.hljs-template-tag,.hljs-template-variable,.hljs-addition {&#13;
+	color:#e0c46c&#13;
+}&#13;
+.hljs-comment,.hljs-deletion,.hljs-meta {&#13;
+	color:#7f7f7f&#13;
+}</css><name>hightlightjs-dark</name><sys_class_name>sp_css</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-03 11:10:31</sys_created_on><sys_id>70cccb8d83c11e101672bfc6feaad391</sys_id><sys_mod_count>0</sys_mod_count><sys_name>hightlightjs-dark</sys_name><sys_package display_value="Vehicles" source="x_1281635_vehicles">8dd8e75983a092101672bfc6feaad3a9</sys_package><sys_policy/><sys_scope display_value="Vehicles">8dd8e75983a092101672bfc6feaad3a9</sys_scope><sys_update_name>sp_css_70cccb8d83c11e101672bfc6feaad391</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-03 11:10:31</sys_updated_on><turn_off_scss_compilation>false</turn_off_scss_compilation></sp_css></record_update>]]></payload>
+        <payload_hash>922293095</payload_hash>
+        <record_name>hightlightjs-dark</record_name>
+        <reverted_from/>
+        <source>01d8e75983a092101672bfc6feaad3ae</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-03 11:10:31</sys_created_on>
+        <sys_id>35dc8bc983051e101672bfc6feaad353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192521305fa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-03 11:10:31</sys_updated_on>
+        <type>Style Sheet</type>
+        <update_guid>39dc8bc9e7051e106bc492204a4d5152</update_guid>
+        <update_guid_history>39dc8bc9e7051e106bc492204a4d5152:922293095</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="hightlightjs-dark">b62adb4d83091e101672bfc6feaad381</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-03 12:08:45</sys_created_on>
+        <sys_db_object display_value="" name="sp_css">sp_css</sys_db_object>
+        <sys_id>9b10d10ed3b84bbb80cf0d3373078519</sys_id>
+        <sys_metadata>70cccb8d83c11e101672bfc6feaad391</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>hightlightjs-dark</sys_name>
+        <sys_package display_value="Vehicles" source="x_1281635_vehicles">8dd8e75983a092101672bfc6feaad3a9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Vehicles">8dd8e75983a092101672bfc6feaad3a9</sys_scope>
+        <sys_scope_delete display_value="">6e2d717eaac746c2a589a3aa890b4364</sys_scope_delete>
+        <sys_update_name>sp_css_70cccb8d83c11e101672bfc6feaad391</sys_update_name>
+        <sys_update_version display_value="sp_css_70cccb8d83c11e101672bfc6feaad391">35dc8bc983051e101672bfc6feaad353</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-03 12:08:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>false</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allow read for records in x_1281635_vehicles_vehicle, for users with role x_1281635_vehicles.integration.</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1281635_vehicles_vehicle</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-15 14:11:38</sys_created_on>
+        <sys_id>36890b17836c56101672bfc6feaad3a4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_1281635_vehicles_vehicle</sys_name>
+        <sys_package display_value="Vehicles" source="x_1281635_vehicles">8dd8e75983a092101672bfc6feaad3a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicles">8dd8e75983a092101672bfc6feaad3a9</sys_scope>
+        <sys_update_name>sys_security_acl_36890b17836c56101672bfc6feaad3a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-15 14:18:08</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Vehicles">8dd8e75983a092101672bfc6feaad3a9</application>
+        <file_path/>
+        <instance_id>8244a0ea1bd50ed019254089bd4bcb97</instance_id>
+        <instance_name>dev254205</instance_name>
+        <name>sys_security_acl_36890b17836c56101672bfc6feaad3a4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>false</admin_overrides><advanced>true</advanced><condition/><description>Allow read for records in x_1281635_vehicles_vehicle, for users with role x_1281635_vehicles.integration.</description><local_or_existing>Local</local_or_existing><name>x_1281635_vehicles_vehicle</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-15 14:11:38</sys_created_on><sys_id>36890b17836c56101672bfc6feaad3a4</sys_id><sys_mod_count>3</sys_mod_count><sys_name>x_1281635_vehicles_vehicle</sys_name><sys_package display_value="Vehicles" source="x_1281635_vehicles">8dd8e75983a092101672bfc6feaad3a9</sys_package><sys_policy/><sys_scope display_value="Vehicles">8dd8e75983a092101672bfc6feaad3a9</sys_scope><sys_update_name>sys_security_acl_36890b17836c56101672bfc6feaad3a4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-15 14:18:08</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>2137749334</payload_hash>
+        <record_name>x_1281635_vehicles_vehicle</record_name>
+        <reverted_from/>
+        <source>01d8e75983a092101672bfc6feaad3ae</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-15 14:18:08</sys_created_on>
+        <sys_id>ba2b4b1f836c56101672bfc6feaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191f60c53870000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-15 14:18:08</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>622b4b1f2c6c56101974658acaf8babf</update_guid>
+        <update_guid_history>622b4b1f2c6c56101974658acaf8babf:2137749334,d2facfdbf56c5610ae54a43d516d3edf:1576942702,17ea07dbec6c5610655344637e825461:-137914233,23a90b570f6c56103cc22cbcad8bb785:-1119839994</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-15 16:19:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>c737eac766bf4f7e942ca7f1b382fc19</sys_id>
+        <sys_metadata>36890b17836c56101672bfc6feaad3a4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1281635_vehicles_vehicle</sys_name>
+        <sys_package display_value="Vehicles" source="x_1281635_vehicles">8dd8e75983a092101672bfc6feaad3a9</sys_package>
+        <sys_parent display_value="x_1281635_vehicles_vehicle">378a279583e092101672bfc6feaad3dd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Vehicles">8dd8e75983a092101672bfc6feaad3a9</sys_scope>
+        <sys_scope_delete display_value="">6e2d717eaac746c2a589a3aa890b4364</sys_scope_delete>
+        <sys_update_name>sys_security_acl_36890b17836c56101672bfc6feaad3a4</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_36890b17836c56101672bfc6feaad3a4">ba2b4b1f836c56101672bfc6feaad3bf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-15 16:19:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

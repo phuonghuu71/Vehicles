@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auth_scope">
+    <sys_auth_scope action="INSERT_OR_UPDATE">
+        <description>Only allows Resource Users to access API</description>
+        <name>Resource</name>
+        <sys_class_name>sys_auth_scope</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-04 15:01:33</sys_created_on>
+        <sys_id>c53b8dad834516501672bfc6feaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Resource</sys_name>
+        <sys_package display_value="Vehicles" source="x_1281635_vehicles">8dd8e75983a092101672bfc6feaad3a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicles">8dd8e75983a092101672bfc6feaad3a9</sys_scope>
+        <sys_update_name>sys_auth_scope_c53b8dad834516501672bfc6feaad331</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-04 15:01:33</sys_updated_on>
+    </sys_auth_scope>
+</record_update>

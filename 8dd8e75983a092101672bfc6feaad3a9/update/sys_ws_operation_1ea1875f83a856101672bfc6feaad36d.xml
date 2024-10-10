@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>f21c2b1f836496101672bfc6feaad3c7</enforce_acl>
+        <http_method>GET</http_method>
+        <name>Get Vehicles (v2)</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+    // Define empty answer
+    var answer = [];
+
+    // Get values from query parameters
+    var name = request.queryParams.name;
+    var model = request.queryParams.model;
+    var description = request.queryParams.description;
+    var model_year = request.queryParams.model_year;
+
+    // Generate 404 if no query parameters were specified
+    if (!name && !model && !description && !model_year) {
+        response.setError(
+            new sn_ws_err.NotFoundError("No query parameters were specified.")
+        );
+        response.setStatus(404);
+        return;
+    }
+
+    // Query the Vehicle table using these parameters
+    var vehicleTable = "x_1281635_vehicles_vehicle";
+    var vehicleGr = new GlideRecord(vehicleTable);
+    if (name) {
+        vehicleGr.addQuery("name", name);
+    }
+    if (model) {
+        vehicleGr.addQuery("model", model);
+    }
+    if (description) {
+        vehicleGr.addQuery("description", description);
+    }
+    if (model_year) {
+        vehicleGr.addQuery("model_year", model_year);
+    }
+    vehicleGr.query();
+
+    // Generate 404 error responses if no Vehicle found
+    if (!vehicleGr.hasNext()) {
+        response.setError(
+            new sn_ws_err.NotFoundError(
+                "No Vehicle record found with the specified criteria."
+            )
+        );
+        response.setStatus(404);
+        return;
+    }
+
+    // Generate JSON object
+    while (vehicleGr.next()) {
+        var vehicleObj = {
+            vin: vehicleGr.getValue("number"),
+            name: vehicleGr.getValue("name"),
+            model: vehicleGr.getValue("model"),
+            description: vehicleGr.getValue("description"),
+            model_year: vehicleGr.getValue("model_year"),
+        };
+        answer.push(vehicleObj);
+    }
+
+    // Generate response body
+    response.setBody(answer);
+})(request, response);
+]]></operation_script>
+        <operation_uri>/api/x_1281635_vehicles/v2/vehicles/vehicles</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/vehicles</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-15 13:36:36</sys_created_on>
+        <sys_id>1ea1875f83a856101672bfc6feaad36d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Get Vehicles (v2)</sys_name>
+        <sys_package display_value="Vehicles" source="x_1281635_vehicles">8dd8e75983a092101672bfc6feaad3a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicles">8dd8e75983a092101672bfc6feaad3a9</sys_scope>
+        <sys_update_name>sys_ws_operation_1ea1875f83a856101672bfc6feaad36d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-15 16:48:16</sys_updated_on>
+        <web_service_definition display_value="Vehicles">9c07b87683e0d6501672bfc6feaad300</web_service_definition>
+        <web_service_version display_value="v2">12a1875f83a856101672bfc6feaad367</web_service_version>
+    </sys_ws_operation>
+</record_update>

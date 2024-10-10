@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_version">
+    <sys_ws_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <deprecated>false</deprecated>
+        <is_default>false</is_default>
+        <short_description/>
+        <sys_class_name>sys_ws_version</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-15 13:36:35</sys_created_on>
+        <sys_id>12a1875f83a856101672bfc6feaad367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>v2</sys_name>
+        <sys_package display_value="Vehicles" source="x_1281635_vehicles">8dd8e75983a092101672bfc6feaad3a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicles">8dd8e75983a092101672bfc6feaad3a9</sys_scope>
+        <sys_update_name>sys_ws_version_12a1875f83a856101672bfc6feaad367</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-15 13:36:35</sys_updated_on>
+        <version>2</version>
+        <version_id>v2</version_id>
+        <web_service_definition display_value="Vehicles">9c07b87683e0d6501672bfc6feaad300</web_service_definition>
+    </sys_ws_version>
+</record_update>

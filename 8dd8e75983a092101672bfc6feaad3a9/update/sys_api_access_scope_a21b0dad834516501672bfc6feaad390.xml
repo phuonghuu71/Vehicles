@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_api_access_scope">
+    <sys_api_access_scope action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api>Vehicles</api>
+        <api_path>x_1281635_vehicles/vehicles</api_path>
+        <api_resource/>
+        <apply_all_methods>true</apply_all_methods>
+        <apply_all_resources>true</apply_all_resources>
+        <apply_all_versions>true</apply_all_versions>
+        <auth_scope display_value="Resource">c53b8dad834516501672bfc6feaad331</auth_scope>
+        <http_method/>
+        <name>OAuth Restriction</name>
+        <sys_class_name>sys_api_access_scope</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-04 15:02:00</sys_created_on>
+        <sys_id>a21b0dad834516501672bfc6feaad390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OAuth Restriction</sys_name>
+        <sys_package display_value="Vehicles" source="x_1281635_vehicles">8dd8e75983a092101672bfc6feaad3a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicles">8dd8e75983a092101672bfc6feaad3a9</sys_scope>
+        <sys_update_name>sys_api_access_scope_a21b0dad834516501672bfc6feaad390</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-04 15:02:00</sys_updated_on>
+        <version/>
+    </sys_api_access_scope>
+</record_update>
